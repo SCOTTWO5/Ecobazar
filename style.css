@@ -24,6 +24,18 @@
     background-image: url(./Project-Files/Bannar-3.png);
 }
 
+.type-1{
+    background-image: url("./Project-Files/Type-1.png");
+}
+
+.type-2{
+    background-image: url("./Project-Files/Type-2.png");
+}
+
+.type-3{
+    background-image: url("./Project-Files/Type-3.png");
+}
+
 .bg-orange {
     background-color: #FF8A00;
 }
@@ -34,6 +46,10 @@
 
 .w-15{
     width: 15%;
+}
+
+.h-100{
+    height: 450px;
 }
 
 @media screen and (max-width: 768px){
