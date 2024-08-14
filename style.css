@@ -57,6 +57,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.discounr-container{
+    background-image: url("./Project-Files/Discount-bg.jpg");
+    height: 300px;
+}
+
 @media screen and (max-width: 768px){
     .w-15{
         width: 30%;
