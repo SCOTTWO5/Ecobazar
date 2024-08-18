@@ -1,1 +1,1 @@
-# Ecobazar
+# eco-bazar
