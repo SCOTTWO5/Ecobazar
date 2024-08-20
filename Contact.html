@@ -1,70 +1,81 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us</title>
 </head>
 <body>
+
     <header>
-        <div class="flex lg:flex-row flex-col border-b border-gray">
+        <div class="flex lg:flex-row border-b border-gray-300 flex-col bg-black-main">
             <div class="lg:w-8/12 w-full flex justify-center py-2">
                 <p class="text-sm font-thin">
                     <i class="fa-solid fa-location-dot"></i>
                     <span>Store Location: Lincoln- 344, Illinois, Chicago, USA</span>
                 </p>
             </div>
-            <div class="lg:w-4/12 w-full flex justify-center">
-                <ul class="flex gap-2 py-2">
+
+            <div class="lg:w-4/12 w-full flex justify-center py-2">
+                <ul class="flex gap-2">
                     <li>
                         <a href="#" class="flex text-sm font-thin">
                             <span>ENG</span>
-                            <svg class="m-auto ml-1" width="11" height="9" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="m-auto ml-1" width="13" height="13" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 1.25L4.5 4.75L1 1.25" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>     
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
-                        <a href="#" class="flex text-sm font-thin">
+                        <a href="#" class="flex text-sm font-thin border-r border-gray pr-2">
                             <span>USD</span>
-                            <svg class="m-auto ml-1" width="11" height="9" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="m-auto ml-1" width="13" height="13" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 1.25L4.5 4.75L1 1.25" stroke="#666666" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
                         <a href="#" class="text-sm font-thin">
-                            Sing in/ Sign up
+                            Sign In / Sign Up
                         </a>
                     </li>
                 </ul>
             </div>
+
         </div>
 
-
-        <div class="flex lg:flex-row flex-col">
-            <div class="lg:w-5/12 w-full flex justify-center py-5">
+        <div class="flex lg:flex-row flex-col border-b border-gray-300">
+            <div class="lg:w-5/12 w-full flex justify-center py-2">
                 <svg width="183" height="39" viewBox="0 0 183 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M31.2749 7.84283C27.4022 7.84283 21.9311 8.16687 19.1352 10.9613C17.9247 12.1718 17.3202 14.1451 17.4771 16.3787C17.4975 16.6737 17.6937 16.9251 17.9756 17.0181C18.256 17.1097 18.5641 17.0239 18.7559 16.7987C20.3108 14.9692 22.2435 13.5029 24.5046 12.4407C24.6964 12.3491 24.9231 12.3418 25.1295 12.4145C25.3111 12.4799 25.4535 12.6034 25.5276 12.7618C25.6816 13.0874 25.6322 13.516 25.1207 13.7572C25.0917 13.7717 25.0655 13.7907 25.0365 13.8037C25.0263 13.8081 25.0147 13.8067 25.006 13.811C19.4346 16.4296 16.6954 20.9984 15.4514 25.6964C14.5446 19.814 12.6294 16.3511 10.8202 14.2252C9.51095 12.5279 8.22341 11.6284 7.47943 11.1198C7.34136 11.0253 6.92435 10.7405 6.7514 10.5676C6.46803 10.2842 6.46803 9.82354 6.7514 9.54017C7.03477 9.25823 7.49687 9.25823 7.81218 9.57212C7.88923 9.64044 8.01272 9.72763 8.16966 9.83226L8.29902 9.91945C9.35108 10.6402 11.31 11.9786 13.0479 14.8602C13.2034 15.1174 13.5042 15.2554 13.7963 15.2002C14.0928 15.1479 14.3252 14.9198 14.3834 14.6248C14.7627 12.6877 14.5927 9.81332 12.8649 8.08553C10.069 5.29254 4.59789 4.96851 0.726671 4.96851C0.32553 4.96844 0 5.29397 0 5.69504C0 9.56769 0.324032 15.0388 3.11846 17.8348C4.28387 19.0002 6.08147 19.5233 7.86736 19.5233C9.32486 19.5233 10.7533 19.1585 11.8476 18.5264C13.3399 21.6187 14.5316 26.2383 14.5316 33.3051C14.5316 33.7061 14.8571 34.0317 15.2582 34.0317C15.6592 34.0317 15.9848 33.7061 15.9848 33.3051C15.9848 29.3627 16.6605 24.6311 19.173 20.7367C20.18 21.7205 21.9137 22.3439 23.8347 22.402C23.9306 22.4049 24.0251 22.4064 24.1195 22.4064C26.0711 22.4064 27.796 21.7946 28.8815 20.7076C31.6773 17.9117 31.9999 12.4406 31.9999 8.56787C32.0015 8.16687 31.6774 7.84283 31.2749 7.84283Z" fill="#00B307"/>
                     <path d="M46.048 11.204V17.732H53.728V20.708H46.048V27.524H54.688V30.5H42.4V8.228H54.688V11.204H46.048ZM57.0052 21.668C57.0052 19.8547 57.3679 18.2653 58.0933 16.9C58.8399 15.5133 59.8639 14.4467 61.1653 13.7C62.4666 12.9533 63.9599 12.58 65.6453 12.58C67.7786 12.58 69.5386 13.092 70.9253 14.116C72.3333 15.1187 73.2826 16.5587 73.7733 18.436H69.8373C69.5173 17.5613 69.0053 16.8787 68.3013 16.388C67.5973 15.8973 66.7119 15.652 65.6453 15.652C64.1519 15.652 62.9573 16.1853 62.0613 17.252C61.1866 18.2973 60.7493 19.7693 60.7493 21.668C60.7493 23.5667 61.1866 25.0493 62.0613 26.116C62.9573 27.1827 64.1519 27.716 65.6453 27.716C67.7573 27.716 69.1546 26.788 69.8373 24.932H73.7733C73.2613 26.724 72.3013 28.1533 70.8933 29.22C69.4853 30.2653 67.7359 30.788 65.6453 30.788C63.9599 30.788 62.4666 30.4147 61.1653 29.668C59.8639 28.9 58.8399 27.8333 58.0933 26.468C57.3679 25.0813 57.0052 23.4813 57.0052 21.668ZM84.0968 30.788C82.4328 30.788 80.9288 30.4147 79.5848 29.668C78.2408 28.9 77.1848 27.8333 76.4168 26.468C75.6488 25.0813 75.2648 23.4813 75.2648 21.668C75.2648 19.876 75.6594 18.2867 76.4488 16.9C77.2381 15.5133 78.3154 14.4467 79.6808 13.7C81.0461 12.9533 82.5714 12.58 84.2568 12.58C85.9421 12.58 87.4674 12.9533 88.8328 13.7C90.1981 14.4467 91.2754 15.5133 92.0648 16.9C92.8541 18.2867 93.2488 19.876 93.2488 21.668C93.2488 23.46 92.8434 25.0493 92.0328 26.436C91.2221 27.8227 90.1128 28.9 88.7048 29.668C87.3181 30.4147 85.7821 30.788 84.0968 30.788ZM84.0968 27.62C85.0354 27.62 85.9101 27.396 86.7208 26.948C87.5528 26.5 88.2248 25.828 88.7368 24.932C89.2488 24.036 89.5048 22.948 89.5048 21.668C89.5048 20.388 89.2594 19.3107 88.7688 18.436C88.2781 17.54 87.6274 16.868 86.8168 16.42C86.0061 15.972 85.1314 15.748 84.1928 15.748C83.2541 15.748 82.3794 15.972 81.5688 16.42C80.7794 16.868 80.1501 17.54 79.6808 18.436C79.2114 19.3107 78.9768 20.388 78.9768 21.668C78.9768 23.5667 79.4568 25.0387 80.4168 26.084C81.3981 27.108 82.6248 27.62 84.0968 27.62ZM99.543 15.492C100.162 14.6387 101.004 13.9453 102.071 13.412C103.159 12.8573 104.364 12.58 105.687 12.58C107.244 12.58 108.652 12.9533 109.911 13.7C111.17 14.4467 112.162 15.5133 112.887 16.9C113.612 18.2653 113.975 19.8333 113.975 21.604C113.975 23.3747 113.612 24.964 112.887 26.372C112.162 27.7587 111.159 28.8467 109.879 29.636C108.62 30.404 107.223 30.788 105.687 30.788C104.322 30.788 103.106 30.5213 102.039 29.988C100.994 29.4547 100.162 28.772 99.543 27.94V30.5H95.895V6.82H99.543V15.492ZM110.263 21.604C110.263 20.388 110.007 19.3427 109.495 18.468C109.004 17.572 108.343 16.9 107.511 16.452C106.7 15.9827 105.826 15.748 104.887 15.748C103.97 15.748 103.095 15.9827 102.263 16.452C101.452 16.9213 100.791 17.604 100.279 18.5C99.7883 19.396 99.543 20.452 99.543 21.668C99.543 22.884 99.7883 23.9507 100.279 24.868C100.791 25.764 101.452 26.4467 102.263 26.916C103.095 27.3853 103.97 27.62 104.887 27.62C105.826 27.62 106.7 27.3853 107.511 26.916C108.343 26.4253 109.004 25.7213 109.495 24.804C110.007 23.8867 110.263 22.82 110.263 21.604ZM115.407 21.604C115.407 19.8333 115.769 18.2653 116.495 16.9C117.241 15.5347 118.244 14.4787 119.503 13.732C120.783 12.964 122.191 12.58 123.727 12.58C125.113 12.58 126.319 12.8573 127.343 13.412C128.388 13.9453 129.22 14.6173 129.839 15.428V12.868H133.519V30.5H129.839V27.876C129.22 28.708 128.377 29.4013 127.311 29.956C126.244 30.5107 125.028 30.788 123.663 30.788C122.148 30.788 120.761 30.404 119.503 29.636C118.244 28.8467 117.241 27.7587 116.495 26.372C115.769 24.964 115.407 23.3747 115.407 21.604ZM129.839 21.668C129.839 20.452 129.583 19.396 129.071 18.5C128.58 17.604 127.929 16.9213 127.119 16.452C126.308 15.9827 125.433 15.748 124.495 15.748C123.556 15.748 122.681 15.9827 121.871 16.452C121.06 16.9 120.399 17.572 119.887 18.468C119.396 19.3427 119.151 20.388 119.151 21.604C119.151 22.82 119.396 23.8867 119.887 24.804C120.399 25.7213 121.06 26.4253 121.871 26.916C122.703 27.3853 123.577 27.62 124.495 27.62C125.433 27.62 126.308 27.3853 127.119 26.916C127.929 26.4467 128.58 25.764 129.071 24.868C129.583 23.9507 129.839 22.884 129.839 21.668ZM140.582 27.524H148.582V30.5H136.358V27.524L144.39 15.844H136.358V12.868H148.582V15.844L140.582 27.524ZM150.236 21.604C150.236 19.8333 150.599 18.2653 151.324 16.9C152.071 15.5347 153.074 14.4787 154.332 13.732C155.612 12.964 157.02 12.58 158.556 12.58C159.943 12.58 161.148 12.8573 162.172 13.412C163.218 13.9453 164.05 14.6173 164.668 15.428V12.868H168.348V30.5H164.668V27.876C164.05 28.708 163.207 29.4013 162.14 29.956C161.074 30.5107 159.858 30.788 158.492 30.788C156.978 30.788 155.591 30.404 154.332 29.636C153.074 28.8467 152.071 27.7587 151.324 26.372C150.599 24.964 150.236 23.3747 150.236 21.604ZM164.668 21.668C164.668 20.452 164.412 19.396 163.9 18.5C163.41 17.604 162.759 16.9213 161.948 16.452C161.138 15.9827 160.263 15.748 159.324 15.748C158.386 15.748 157.511 15.9827 156.7 16.452C155.89 16.9 155.228 17.572 154.716 18.468C154.226 19.3427 153.98 20.388 153.98 21.604C153.98 22.82 154.226 23.8867 154.716 24.804C155.228 25.7213 155.89 26.4253 156.7 26.916C157.532 27.3853 158.407 27.62 159.324 27.62C160.263 27.62 161.138 27.3853 161.948 26.916C162.759 26.4467 163.41 25.764 163.9 24.868C164.412 23.9507 164.668 22.884 164.668 21.668ZM175.828 15.428C176.361 14.532 177.065 13.8387 177.94 13.348C178.836 12.836 179.892 12.58 181.108 12.58V16.356H180.18C178.751 16.356 177.663 16.7187 176.916 17.444C176.191 18.1693 175.828 19.428 175.828 21.22V30.5H172.18V12.868H175.828V15.428Z" fill="#002603"/>
-                    </svg>                    
+                </svg>                    
             </div>
-            <div class="input-container flex justify-center lg:w-4/12 w-full py-5">
+
+            <div class="input-container flex justify-center lg:w-4/12 w-full py-2">
                 <div class="flex border border-gray-300 rounded-md gap-2">
-                    <i class="fa-solid fa-magnifying-glass m-auto pl-1"></i>
-                    <input type=" text" placeholder="search" class="focus:outline-none">
-                    <button class="bg-main px-5 py-2 text-white rounded-sm">search</button>
+                    <svg class="pl-1 m-auto" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.16667 16.3333C12.8486 16.3333 15.8333 13.3486 15.8333 9.66667C15.8333 5.98477 12.8486 3 9.16667 3C5.48477 3 2.5 5.98477 2.5 9.66667C2.5 13.3486 5.48477 16.3333 9.16667 16.3333Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.4999 18L13.8749 14.375" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                    <input type="text" placeholder="Search" class="focus:outline-none">
+                    <button class="bg-main px-4 py-2 text-white rounded-sm">Search</button>
                 </div>
             </div>
-            <div class="lg:w-3/12 w-full flex justify-center py-5 gap-2">
-                <div class="my-auto border-r border-gray-300 pr-3">
+
+            <div class="lg:w-3/12 w-full flex justify-center py-2 gap-2">
+                <div class="my-auto border-r border-gray pr-2">
                     <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.9995 28.5722C-10.6667 13.8334 7.99999 -2.16662 15.9995 7.95079C24 -2.16663 42.6666 13.8334 15.9995 28.5722Z" stroke="#1A1A1A" stroke-width="1.5"/>
-                        </svg>                        
+                    </svg>                        
                 </div>
-                <div class="">
+
+                <div>
                     <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.3333 17.6667H7.08333L4.25 33.25H29.75L26.9167 17.6667H22.6667M11.3333 17.6667V13.4167C11.3333 10.2871 13.8704 7.75 17 7.75V7.75C20.1296 7.75 22.6667 10.2871 22.6667 13.4167V17.6667M11.3333 17.6667H22.6667M11.3333 17.6667V21.9167M22.6667 17.6667V21.9167" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <rect x="17.5" y="1" width="19" height="19" rx="9.5" fill="#2C742F"/>
@@ -72,75 +83,87 @@
                         <path d="M25.3443 12.45C25.9843 11.8967 26.4876 11.4433 26.8543 11.09C27.2276 10.73 27.5376 10.3567 27.7843 9.97C28.0309 9.58333 28.1543 9.19667 28.1543 8.81C28.1543 8.41 28.0576 8.09667 27.8643 7.87C27.6776 7.64333 27.3809 7.53 26.9743 7.53C26.5809 7.53 26.2743 7.65667 26.0543 7.91C25.8409 8.15667 25.7276 8.49 25.7143 8.91H24.6143C24.6343 8.15 24.8609 7.57 25.2943 7.17C25.7343 6.76333 26.2909 6.56 26.9643 6.56C27.6909 6.56 28.2576 6.76 28.6643 7.16C29.0776 7.56 29.2843 8.09333 29.2843 8.76C29.2843 9.24 29.1609 9.70333 28.9143 10.15C28.6743 10.59 28.3843 10.9867 28.0443 11.34C27.7109 11.6867 27.2843 12.09 26.7643 12.55L26.3143 12.95H29.4843V13.9H24.6243V13.07L25.3443 12.45Z" fill="white"/>
                     </svg>                        
                 </div>
-                <div class="">
+
+                <div>
                     <span class="text-sm font-thin">Shopping cart:</span>
-                    <p class="font-bold">$57.00$</p>
+                    <p class="font-bold">$57.00</p>
                 </div>
             </div>
+
         </div>
 
-        <div class="flex lg:flex-row flex-col bg-nav">
-            <div class="lg:w-8/12 w-full py-2">
-                <ul class="flex justify-center items-center gap-4 font-thin lg:flex-row flex-col">
+        <div class="flex text-black">
+            <div class="lg:w-8/12 text-sm w-full py-2">
+                <ul class="gap-4 flex justify-center items-center lg:flex-row flex-col">
                     <li>
-                        <a href="./index.html" class=" flex text-white">
+                        <a href="./index.html" class="flex text-main">
                             <span>Home</span>
-                            <svg class="my-1.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>                                                         
+                            <svg class="my-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="#00B207" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
                         <a href="#" class="flex">
                             <span>Shop</span>
-                            <svg class="my-1.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
+                            <svg class="my-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
-                        <a href="" class="flex">
+                        <a href="#" class="flex">
                             <span>Pages</span>
-                            <svg class="my-1.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                            <svg class="my-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
-                        <a href="" class="flex">
+                        <a href="./blog.html" class="flex">
                             <span>Blog</span>
-                            <svg class="my-1.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                            <svg class="my-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.33335 5.66675L8.00002 10.3334L12.6667 5.66675" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
                         </a>
                     </li>
+
                     <li>
-                        <a href="">
-                            <span>About us</span>
+                        <a href="#">
+                            <span>About Us</span>
                         </a>
                     </li>
+
                     <li>
-                        <a href="./Contact.html">
-                            <span>Contact us</span>
+                        <a href="./contact.html">
+                            <span>Contact Us</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="lg:w-4/12 w-full flex justify-center items-center text-white py-2 gap-1">
+
+            <div class="lg:w-4/12 w-full flex justify-center items-center gap-1">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.436 4.375C18.9193 4.77396 20.2718 5.55567 21.358 6.64184C22.4442 7.72801 23.2259 9.08051 23.6249 10.5639" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M16.5306 7.75684C17.4205 7.99622 18.2318 8.46518 18.8833 9.11675C19.5349 9.76832 20.0039 10.5796 20.2433 11.4695" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M10.115 13.6517C11.0224 15.5074 12.5263 17.0048 14.3859 17.9042C14.522 17.9687 14.6727 17.9965 14.8229 17.985C14.9731 17.9735 15.1178 17.923 15.2425 17.8385L17.9812 16.0133C18.1022 15.9325 18.2414 15.8832 18.3862 15.8697C18.5311 15.8563 18.677 15.8792 18.8107 15.9363L23.9339 18.1325C24.1079 18.2065 24.2532 18.3349 24.3479 18.4986C24.4426 18.6622 24.4815 18.8522 24.4589 19.0399C24.2967 20.3069 23.6784 21.4713 22.7196 22.3153C21.7608 23.1592 20.5273 23.6248 19.25 23.6249C15.3049 23.6249 11.5214 22.0577 8.73179 19.2681C5.94218 16.4785 4.375 12.695 4.375 8.74992C4.37512 7.47271 4.84074 6.23933 5.68471 5.28069C6.52867 4.32206 7.6931 3.70389 8.96 3.54192C9.14771 3.51928 9.33769 3.55824 9.50134 3.65293C9.66499 3.74761 9.79345 3.8929 9.86738 4.06692L12.0654 9.19442C12.1219 9.32691 12.1449 9.4713 12.1322 9.61478C12.1195 9.75826 12.0716 9.89639 11.9928 10.0169L10.1728 12.7977C10.0901 12.9229 10.0414 13.0674 10.0313 13.2171C10.0212 13.3667 10.05 13.5165 10.115 13.6517V13.6517Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
-                    <span class="">
-                        (219) 555-0114
-                    </span>                  
+                    <path d="M17.436 4.375C18.9193 4.77396 20.2718 5.55567 21.358 6.64184C22.4442 7.72801 23.2259 9.08051 23.6249 10.5639" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5306 7.75684C17.4205 7.99622 18.2318 8.46518 18.8833 9.11675C19.5349 9.76832 20.0039 10.5796 20.2433 11.4695" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.115 13.6517C11.0224 15.5074 12.5263 17.0048 14.3859 17.9042C14.522 17.9687 14.6727 17.9965 14.8229 17.985C14.9731 17.9735 15.1178 17.923 15.2425 17.8385L17.9812 16.0133C18.1022 15.9325 18.2414 15.8832 18.3862 15.8697C18.5311 15.8563 18.677 15.8792 18.8107 15.9363L23.9339 18.1325C24.1079 18.2065 24.2532 18.3349 24.3479 18.4986C24.4426 18.6622 24.4815 18.8522 24.4589 19.0399C24.2967 20.3069 23.6784 21.4713 22.7196 22.3153C21.7608 23.1592 20.5273 23.6248 19.25 23.6249C15.3049 23.6249 11.5214 22.0577 8.73179 19.2681C5.94218 16.4785 4.375 12.695 4.375 8.74992C4.37512 7.47271 4.84074 6.23933 5.68471 5.28069C6.52867 4.32206 7.6931 3.70389 8.96 3.54192C9.14771 3.51928 9.33769 3.55824 9.50134 3.65293C9.66499 3.74761 9.79345 3.8929 9.86738 4.06692L12.0654 9.19442C12.1219 9.32691 12.1449 9.4713 12.1322 9.61478C12.1195 9.75826 12.0716 9.89639 11.9928 10.0169L10.1728 12.7977C10.0901 12.9229 10.0414 13.0674 10.0313 13.2171C10.0212 13.3667 10.05 13.5165 10.115 13.6517V13.6517Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <span>
+                    (219) 555-0114
+                </span>                    
             </div>
+
         </div>
+
     </header>
         
       <main class="flex flex-col justify-center items-center gap-6">
-        <div class="contact-main-header lg:bg-cover bg-center lg:w-full"></div>
+        <div class="contact-main-header lg:bg-cover bg-center lg:w-full">
+        </div>
 
         <div class="contact-form flex lg:flex-row flex-col lg:w-10/12 w-11/12 py-4 gap-4">
             <div class="items-contact-1 lg:w-4/12 flex flex-col justify-center shadow-md">
@@ -151,8 +174,10 @@
                             <path d="M26 27.0938C27.6908 27.0938 29.3123 26.4221 30.5078 25.2266C31.7033 24.031 32.375 22.4095 32.375 20.7188C32.375 19.028 31.7033 17.4065 30.5078 16.2109C29.3123 15.0154 27.6908 14.3438 26 14.3438C24.3092 14.3438 22.6877 15.0154 21.4922 16.2109C20.2966 17.4065 19.625 19.028 19.625 20.7188C19.625 22.4095 20.2966 24.031 21.4922 25.2266C22.6877 26.4221 24.3092 27.0938 26 27.0938V27.0938Z" stroke="#2C742F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M41.9375 20.7188C41.9375 35.0625 26 46.2188 26 46.2188C26 46.2188 10.0625 35.0625 10.0625 20.7188C10.0625 16.4919 11.7416 12.4381 14.7305 9.44924C17.7193 6.46037 21.7731 4.78125 26 4.78125C30.2269 4.78125 34.2807 6.46037 37.2695 9.44924C40.2584 12.4381 41.9375 16.4919 41.9375 20.7188V20.7188Z" stroke="#2C742F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>    
-                        <p class="font-thin pb-4">2715 Ash Dr. San Jose, South Dakota 83475</p>                        
+                        <p class="font-thin pb-4">2715 Ash Dr. San Jose, South Dakota 83475</p>    
+
                     </div>
+
                 </div>
 
                 <div class="contact-items-content-2 flex flex-col w-11/12 border-b border-t border-gray-300">
@@ -173,9 +198,11 @@
                         <p class="font-thin pt-2">Proxy@gmail.com</p>  
                         <p class="font-thin pb-4">Help.proxy@gmail.com</p>                        
                     </div>
+
                 </div>
 
                 <div class="contact-items-content-3 flex flex-col w-11/12">
+
                     <div class="flex flex-col  text-center items-center px-10">
                         <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M31.9827 7.24194C34.9247 8.03321 37.6071 9.5836 39.7614 11.7378C41.9156 13.8921 43.466 16.5745 44.2573 19.5166" stroke="#2C742F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -185,44 +212,55 @@
                         <p class="font-thin pt-2">(219) 555-0114</p>  
                         <p class="font-thin pb-4">(164) 333-0487</p>                      
                     </div>
+
                 </div>
+
             </div>
 
             <div class="items-contact-2 lg:w-8/12 flex flex-col  pl-6 shadow-md rounded">
+
                 <div class="items-contact-2 flex flex-col w-11/12">
+
                     <div class="form-header pr-40">
                         <p class="font-semibold text-lg pt-8 pb-1">Just Say Hello!</p>
                         <span class="font-thin">Do you fancy saying hi to me or you want to get started with your project and you need my 
                             help? Feel free to contact me.
                         </span>
                     </div>
+
                 </div>
 
                 <div class="contact-form flex pr-6">
-                    <form action="" method="post" class="w-full pt-4">
-                        <div class="w-full flex gap-2 pb-1">
-                            <input class="w-1/2 border border-gray-300 py-1 px-2 focus:outline-none rounded-md" type="text" 
-                            placeholder="Template Cookie">
-                            <input class="w-1/2 border border-gray-300 py-1 px-2 focus:outline-none rounded-md" type="email" 
-                            placeholder="zakirsoft@gmail.com">
-                        </div>
-                        <input type="" class="w-full border border-green-500 py-1 px-2 rounded-md focus:outline-none mb-4" 
-                        placeholder="Hello|">
-                        <textarea class="w-full border border-gray-300 py-1 px-2 rounded-md focus:outline-none" rows="3" 
-                        placeholder="Subjects"></textarea>
-                        <button type="submit" class="bg-main px-5 py-2 text-white rounded-3xl focus:outline-none
-                        focus:shadow-outline mt-10">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
 
-        <div class="contact-map lg:bg-cover bg-center lg:w-full"></div>
+                    <form action="" method="post" class="w-full pt-4">
+
+                        <div class="w-full flex gap-2 pb-1">
+                            <input class="w-1/2 border border-gray-300 py-1 px-2 focus:outline-none rounded-md" type="text" placeholder="Template Cookie">
+                            <input class="w-1/2 border border-gray-300 py-1 px-2 focus:outline-none rounded-md" type="email" placeholder="zakirsoft@gmail.com">
+                        </div>
+
+                        <input type="" class="w-full border border-green-500 py-1 px-2 rounded-md focus:outline-none mb-4" placeholder="Hello|">
+
+                        <textarea class="w-full border border-gray-300 py-1 px-2 rounded-md focus:outline-none" rows="3" placeholder="Subjects"></textarea>
+
+                        <button type="submit" class="bg-main px-5 py-2 mb-5 text-white rounded-3xl focus:outline-none focus:shadow-outline mt-10">Send Message</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        <div class="contact-map lg:bg-cover bg-center lg:w-full">
+        </div>
       </main>
 
     <footer class="flex flex-col justify-center items-center">
-        <div class="footer-container-1 w-full flex  py-4 bg-gray-100 mt-10  justify-center">
+
+        <div class="footer-container-1 w-full flex  py-4 bg-gray-100 justify-center">
+
             <div class="footer-content-1 lg:w-10/12 w-11/12 flex lg:flex-row flex-col gap-6 py-5">
+
                <div class="lg:w-5/12">
                     <p class="font-semibold text-lg py-1">Subcribe our Newsletter</p>
                     <span class="font-thin text-sm text-gray-500">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet 
@@ -231,18 +269,24 @@
                </div>
 
                <div class="lg:w-5/12 flex items-center">
+
                 <div class="footer-input-container flex justify-center w-full py-5">
+
                     <div class="flex border border-gray-300 rounded-3xl bg-white">
                         <input type=" text" placeholder="Your email address" class="focus:outline-none border-none
                         w-full px-3 py-2 font-thin rounded-3xl">
                         <button class="bg-main px-5 py-2 text-white rounded-3xl focus:outline-none
                         focus:shadow-outline">Subcribe</button>
                     </div>
+
                 </div>
+
                </div>
 
                 <div class="lg:w-2/12 flex justify-center items-center">
+
                    <div class=""> 
+
                        <a href="">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="20" cy="20" r="20" fill="#00B307"/>
@@ -256,6 +300,7 @@
                             </defs>
                         </svg>                            
                        </a> 
+
                     </div>
 
                     <div class=""> 
@@ -297,14 +342,19 @@
                         </svg>                            
                        </a> 
                     </div>
+
                 </div>
+
             </div>
+
         </div>
 
         <div class="footer-container-2 w-full flex  py-8 bg-black justify-center">
-            <div class="footer-content-2 lg:w-10/12 w-11/12 flex lg:flex-row flex-col gap-10 py-8 border-b
-            border-gray-600">
+
+            <div class="footer-content-2 lg:w-10/12 w-11/12 flex lg:flex-row flex-col gap-10 py-8 border-b border-gray-600">
+
                 <div class="lg:w-4/12 flex flex-col gap-2 text-white">
+
                     <svg width="183" height="38" viewBox="0 0 183 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M31.2749 7.34283C27.4022 7.34283 21.9311 7.66687 19.1352 10.4613C17.9247 11.6718 17.3202 13.6451 17.4771 15.8787C17.4975 16.1737 17.6937 16.4251 17.9756 16.5181C18.256 16.6097 18.5641 16.5239 18.7559 16.2987C20.3108 14.4692 22.2435 13.0029 24.5046 11.9407C24.6964 11.8491 24.9231 11.8418 25.1295 11.9145C25.3111 11.9799 25.4535 12.1034 25.5276 12.2618C25.6816 12.5874 25.6322 13.016 25.1207 13.2572C25.0917 13.2717 25.0655 13.2907 25.0365 13.3037C25.0263 13.3081 25.0147 13.3067 25.006 13.311C19.4346 15.9296 16.6954 20.4984 15.4514 25.1964C14.5446 19.314 12.6294 15.8511 10.8202 13.7252C9.51095 12.0279 8.22341 11.1284 7.47943 10.6198C7.34136 10.5253 6.92435 10.2405 6.7514 10.0676C6.46803 9.78421 6.46803 9.32354 6.7514 9.04017C7.03477 8.75823 7.49687 8.75823 7.81218 9.07212C7.88923 9.14044 8.01272 9.22763 8.16966 9.33226L8.29902 9.41945C9.35108 10.1402 11.31 11.4786 13.0479 14.3602C13.2034 14.6174 13.5042 14.7554 13.7963 14.7002C14.0928 14.6479 14.3252 14.4198 14.3834 14.1248C14.7627 12.1877 14.5927 9.31332 12.8649 7.58553C10.069 4.79254 4.59789 4.46851 0.726671 4.46851C0.32553 4.46844 0 4.79397 0 5.19504C0 9.06769 0.324032 14.5388 3.11846 17.3348C4.28387 18.5002 6.08147 19.0233 7.86736 19.0233C9.32486 19.0233 10.7533 18.6585 11.8476 18.0264C13.3399 21.1187 14.5316 25.7383 14.5316 32.8051C14.5316 33.2061 14.8571 33.5317 15.2582 33.5317C15.6592 33.5317 15.9848 33.2061 15.9848 32.8051C15.9848 28.8627 16.6605 24.1311 19.173 20.2367C20.18 21.2205 21.9137 21.8439 23.8347 21.902C23.9306 21.9049 24.0251 21.9064 24.1195 21.9064C26.0711 21.9064 27.796 21.2946 28.8815 20.2076C31.6773 17.4117 31.9999 11.9406 31.9999 8.06787C32.0015 7.66687 31.6774 7.34283 31.2749 7.34283Z" fill="#00B307"/>
                         <path d="M46.048 10.704V17.232H53.728V20.208H46.048V27.024H54.688V30H42.4V7.728H54.688V10.704H46.048ZM57.0052 21.168C57.0052 19.3547 57.3679 17.7653 58.0933 16.4C58.8399 15.0133 59.8639 13.9467 61.1653 13.2C62.4666 12.4533 63.9599 12.08 65.6453 12.08C67.7786 12.08 69.5386 12.592 70.9253 13.616C72.3333 14.6187 73.2826 16.0587 73.7733 17.936H69.8373C69.5173 17.0613 69.0053 16.3787 68.3013 15.888C67.5973 15.3973 66.7119 15.152 65.6453 15.152C64.1519 15.152 62.9573 15.6853 62.0613 16.752C61.1866 17.7973 60.7493 19.2693 60.7493 21.168C60.7493 23.0667 61.1866 24.5493 62.0613 25.616C62.9573 26.6827 64.1519 27.216 65.6453 27.216C67.7573 27.216 69.1546 26.288 69.8373 24.432H73.7733C73.2613 26.224 72.3013 27.6533 70.8933 28.72C69.4853 29.7653 67.7359 30.288 65.6453 30.288C63.9599 30.288 62.4666 29.9147 61.1653 29.168C59.8639 28.4 58.8399 27.3333 58.0933 25.968C57.3679 24.5813 57.0052 22.9813 57.0052 21.168ZM84.0968 30.288C82.4328 30.288 80.9288 29.9147 79.5848 29.168C78.2408 28.4 77.1848 27.3333 76.4168 25.968C75.6488 24.5813 75.2648 22.9813 75.2648 21.168C75.2648 19.376 75.6594 17.7867 76.4488 16.4C77.2381 15.0133 78.3154 13.9467 79.6808 13.2C81.0461 12.4533 82.5714 12.08 84.2568 12.08C85.9421 12.08 87.4674 12.4533 88.8328 13.2C90.1981 13.9467 91.2754 15.0133 92.0648 16.4C92.8541 17.7867 93.2488 19.376 93.2488 21.168C93.2488 22.96 92.8434 24.5493 92.0328 25.936C91.2221 27.3227 90.1128 28.4 88.7048 29.168C87.3181 29.9147 85.7821 30.288 84.0968 30.288ZM84.0968 27.12C85.0354 27.12 85.9101 26.896 86.7208 26.448C87.5528 26 88.2248 25.328 88.7368 24.432C89.2488 23.536 89.5048 22.448 89.5048 21.168C89.5048 19.888 89.2594 18.8107 88.7688 17.936C88.2781 17.04 87.6274 16.368 86.8168 15.92C86.0061 15.472 85.1314 15.248 84.1928 15.248C83.2541 15.248 82.3794 15.472 81.5688 15.92C80.7794 16.368 80.1501 17.04 79.6808 17.936C79.2114 18.8107 78.9768 19.888 78.9768 21.168C78.9768 23.0667 79.4568 24.5387 80.4168 25.584C81.3981 26.608 82.6248 27.12 84.0968 27.12ZM99.543 14.992C100.162 14.1387 101.004 13.4453 102.071 12.912C103.159 12.3573 104.364 12.08 105.687 12.08C107.244 12.08 108.652 12.4533 109.911 13.2C111.17 13.9467 112.162 15.0133 112.887 16.4C113.612 17.7653 113.975 19.3333 113.975 21.104C113.975 22.8747 113.612 24.464 112.887 25.872C112.162 27.2587 111.159 28.3467 109.879 29.136C108.62 29.904 107.223 30.288 105.687 30.288C104.322 30.288 103.106 30.0213 102.039 29.488C100.994 28.9547 100.162 28.272 99.543 27.44V30H95.895V6.32H99.543V14.992ZM110.263 21.104C110.263 19.888 110.007 18.8427 109.495 17.968C109.004 17.072 108.343 16.4 107.511 15.952C106.7 15.4827 105.826 15.248 104.887 15.248C103.97 15.248 103.095 15.4827 102.263 15.952C101.452 16.4213 100.791 17.104 100.279 18C99.7883 18.896 99.543 19.952 99.543 21.168C99.543 22.384 99.7883 23.4507 100.279 24.368C100.791 25.264 101.452 25.9467 102.263 26.416C103.095 26.8853 103.97 27.12 104.887 27.12C105.826 27.12 106.7 26.8853 107.511 26.416C108.343 25.9253 109.004 25.2213 109.495 24.304C110.007 23.3867 110.263 22.32 110.263 21.104ZM115.407 21.104C115.407 19.3333 115.769 17.7653 116.495 16.4C117.241 15.0347 118.244 13.9787 119.503 13.232C120.783 12.464 122.191 12.08 123.727 12.08C125.113 12.08 126.319 12.3573 127.343 12.912C128.388 13.4453 129.22 14.1173 129.839 14.928V12.368H133.519V30H129.839V27.376C129.22 28.208 128.377 28.9013 127.311 29.456C126.244 30.0107 125.028 30.288 123.663 30.288C122.148 30.288 120.761 29.904 119.503 29.136C118.244 28.3467 117.241 27.2587 116.495 25.872C115.769 24.464 115.407 22.8747 115.407 21.104ZM129.839 21.168C129.839 19.952 129.583 18.896 129.071 18C128.58 17.104 127.929 16.4213 127.119 15.952C126.308 15.4827 125.433 15.248 124.495 15.248C123.556 15.248 122.681 15.4827 121.871 15.952C121.06 16.4 120.399 17.072 119.887 17.968C119.396 18.8427 119.151 19.888 119.151 21.104C119.151 22.32 119.396 23.3867 119.887 24.304C120.399 25.2213 121.06 25.9253 121.871 26.416C122.703 26.8853 123.577 27.12 124.495 27.12C125.433 27.12 126.308 26.8853 127.119 26.416C127.929 25.9467 128.58 25.264 129.071 24.368C129.583 23.4507 129.839 22.384 129.839 21.168ZM140.582 27.024H148.582V30H136.358V27.024L144.39 15.344H136.358V12.368H148.582V15.344L140.582 27.024ZM150.236 21.104C150.236 19.3333 150.599 17.7653 151.324 16.4C152.071 15.0347 153.074 13.9787 154.332 13.232C155.612 12.464 157.02 12.08 158.556 12.08C159.943 12.08 161.148 12.3573 162.172 12.912C163.218 13.4453 164.05 14.1173 164.668 14.928V12.368H168.348V30H164.668V27.376C164.05 28.208 163.207 28.9013 162.14 29.456C161.074 30.0107 159.858 30.288 158.492 30.288C156.978 30.288 155.591 29.904 154.332 29.136C153.074 28.3467 152.071 27.2587 151.324 25.872C150.599 24.464 150.236 22.8747 150.236 21.104ZM164.668 21.168C164.668 19.952 164.412 18.896 163.9 18C163.41 17.104 162.759 16.4213 161.948 15.952C161.138 15.4827 160.263 15.248 159.324 15.248C158.386 15.248 157.511 15.4827 156.7 15.952C155.89 16.4 155.228 17.072 154.716 17.968C154.226 18.8427 153.98 19.888 153.98 21.104C153.98 22.32 154.226 23.3867 154.716 24.304C155.228 25.2213 155.89 25.9253 156.7 26.416C157.532 26.8853 158.407 27.12 159.324 27.12C160.263 27.12 161.138 26.8853 161.948 26.416C162.759 25.9467 163.41 25.264 163.9 24.368C164.412 23.4507 164.668 22.384 164.668 21.168ZM175.828 14.928C176.361 14.032 177.065 13.3387 177.94 12.848C178.836 12.336 179.892 12.08 181.108 12.08V15.856H180.18C178.751 15.856 177.663 16.2187 176.916 16.944C176.191 17.6693 175.828 18.928 175.828 20.72V30H172.18V12.368H175.828V14.928Z" fill="white"/>
@@ -312,6 +362,7 @@
                     <p class="text-gray-500 text-sm font-thin">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna
                          congue nec.
                     </p>      
+
                     <div class="contact-container flex flex-col lg:flex-row gap-3">
                         <p class="pb-1 border-b-2 border-green-500">(219) 555-0114</p>
                         <span class="text-gray-500">or</span>
@@ -320,7 +371,9 @@
                 </div>
 
                 <div class="lg:w-8/12 flex lg:flex-row lg:flex-nowrap flex-wrap ml-10">
+
                     <div class="lg:w-3/12 w-1/2 text-gray-500 font-thin">
+
                         <p class="text-white text-lg font-semibold pb-3">my account</p>
                         <ul class="flex flex-col gap-1">
                             <li><a href="">My Account</a></li>
@@ -331,6 +384,7 @@
                     </div>
                    
                     <div class="lg:w-3/12 w-1/2 text-gray-500 font-thin">
+
                         <p class="text-white text-lg font-semibold pb-3">Helps</p>
                         <ul class="flex flex-col gap-1">
                             <li><a href="./Contact.html">Contact</a></li>
@@ -338,9 +392,11 @@
                             <li><a class="" href="">Terms & Condition</a></li>
                             <li><a href="">Privacy Policy</a></li>
                         </ul>
+
                     </div>
 
                     <div class="lg:w-3/12 w-1/2 text-gray-500 font-thin">
+
                         <p class="text-white text-lg font-semibold pb-3">Proxy</p>
                         <ul class="flex flex-col gap-1">
                             <li><a href="">About</a></li>
@@ -348,6 +404,7 @@
                             <li><a href="">Product</a></li>
                             <li><a href="">Track</a></li>
                         </ul>
+
                     </div>
 
                     <div class="lg:w-3/12 w-1/2 text-gray-500 font-thin">
@@ -359,16 +416,23 @@
                             <li><a href="">Beauty & Health</a></li>
                         </ul>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
 
         <div class="footer-container-3 w-full flex bg-black justify-center text-gray-500">
+
              <div class="footer-content-3 lg:w-10/12 w-11/12 flex lg:flex-row flex-col gap-10 pb-8">
+
                 <div class="lg:w-1/2">
                     <p class="font-semibold">Ecobazar eCommerce &copy; 2021. All Rights Reserved</p>
                 </div>
+
                 <div class="lg:w-1/2 flex justify-center lg:justify-end gap-2">
+
                     <svg width="45" height="32" viewBox="0 0 45 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.5" y="0.5" width="44" height="30.7647" rx="4.79412" fill="#1A1A1A" stroke="#333333"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5062 11.0424C12.1285 11.5081 11.5242 11.8755 10.9199 11.823C10.8443 11.1932 11.1402 10.5241 11.4864 10.1109C11.8641 9.632 12.5251 9.29089 13.0602 9.26465C13.1232 9.92063 12.8777 10.5635 12.5062 11.0424ZM13.0539 11.9476C12.5215 11.9157 12.0357 12.1144 11.6433 12.275C11.3908 12.3783 11.177 12.4658 11.0143 12.4658C10.8317 12.4658 10.6091 12.3736 10.3591 12.2702C10.0315 12.1345 9.65697 11.9795 9.26423 11.9869C8.36402 12.0001 7.52676 12.5314 7.06721 13.3776C6.12293 15.0701 6.82169 17.5759 7.7345 18.9535C8.18146 19.6357 8.71655 20.3835 9.42161 20.3573C9.73179 20.3451 9.95492 20.2464 10.1858 20.1443C10.4517 20.0268 10.7279 19.9046 11.1591 19.9046C11.5754 19.9046 11.8394 20.0236 12.093 20.1377C12.334 20.2463 12.5655 20.3505 12.9091 20.3441C13.6394 20.331 14.0989 19.6619 14.5459 18.9797C15.0282 18.2475 15.2402 17.5329 15.2724 17.4245L15.2761 17.4119C15.2754 17.4111 15.2694 17.4083 15.2589 17.4032C15.0977 17.3263 13.8652 16.7384 13.8534 15.1619C13.8416 13.8386 14.8309 13.1682 14.9867 13.0627C14.9962 13.0562 15.0026 13.0519 15.0054 13.0496C14.3759 12.0788 13.3939 11.9738 13.0539 11.9476ZM18.109 20.272V10.0452H21.7917C23.6929 10.0452 25.0211 11.4097 25.0211 13.4039C25.0211 15.398 23.6677 16.7756 21.7413 16.7756H19.6325V20.272H18.109ZM19.6324 11.3835H21.3888C22.7108 11.3835 23.4662 12.1182 23.4662 13.4105C23.4662 14.7027 22.7108 15.444 21.3825 15.444H19.6324V11.3835ZM30.0511 19.0454C29.6482 19.8457 28.7606 20.3508 27.8037 20.3508C26.3873 20.3508 25.3989 19.4717 25.3989 18.1467C25.3989 16.8347 26.3558 16.0803 28.1248 15.9688L30.0259 15.8507V15.2866C30.0259 14.4535 29.5034 14.0009 28.5717 14.0009C27.8037 14.0009 27.2434 14.4141 27.1301 15.0439H25.7578C25.8018 13.7188 26.9979 12.7545 28.6158 12.7545C30.3595 12.7545 31.4927 13.7057 31.4927 15.1816V20.272H30.0826V19.0454H30.0511ZM28.2128 19.1372C27.4007 19.1372 26.8845 18.7304 26.8845 18.1073C26.8845 17.4644 27.3818 17.0905 28.3324 17.0315L30.0258 16.9199V17.4972C30.0258 18.4549 29.2452 19.1372 28.2128 19.1372ZM36.17 20.6722C35.5594 22.463 34.8606 23.0534 33.375 23.0534C33.2616 23.0534 32.8839 23.0403 32.7958 23.014V21.7874C32.8902 21.8005 33.1231 21.8136 33.2428 21.8136C33.9163 21.8136 34.2941 21.5184 34.527 20.7509L34.6655 20.2983L32.0844 12.8529H33.6771L35.4713 18.8945H35.5027L37.2969 12.8529H38.8455L36.17 20.6722Z" fill="white"/>
@@ -408,9 +472,13 @@
                         </clipPath>
                         </defs>
                     </svg>                        
+
                 </div>
+
             </div>
+
         </div>
+
     </footer>
 </body>
 </html>
