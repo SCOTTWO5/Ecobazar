@@ -1,120 +1,122 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
 }
-
-.bg-main {
+.bg-main{
     background-color: #00B207;
+    ;
 }
-
-.bg-black-main {
+.bg-nav{
     background-color: #333333;
     color: #999999;
-}
 
-.big-bannar {
-    background-image: url(./Project-Files/Bannar-1.png);
 }
-
-.small-bannar-1 {
-    background-image: url(./Project-Files/Bannar-2.png);
-}
-
-.small-bannar-2 {
-    background-image: url(./Project-Files/Bannar-3.png);
-}
-
-.type-1 {
-    background-image: url("./Project-Files/Type-1.png");
-}
-
-.type-2 {
-    background-image: url("./Project-Files/Type-2.png");
-}
-
-.type-3 {
-    background-image: url("./Project-Files/Type-3.png");
-}
-
-.bg-orange {
-    background-color: #FF8A00;
-}
-
-.text-main {
+.button-col{
     color: #00B207;
+    ;
 }
-
-.text-orange {
-    color: orange;
+.big-pic{
+    background-image: url(./images/eco-bazzare-pic1.jpg);
 }
-
-.w-15 {
+.small-pic-1{
+    background-image: url(./images/BG.png);
+}
+.small-pic-2{
+    background-image: url(./images/eco-bazard\ pic3.png);
+}
+.bg-orange{
+    background-color: #FF8A00;
+    ;
+}
+.text-orange{
+    color: #FF8A00;
+}
+.w-15{
     width: 15%;
 }
-
-.h-100 {
-    height: 450px;
-    font-family: 'Roboto', sans-serif;
+.text-yellow{
+    color: rgb(255, 208, 0);
+    background-color: black;
 }
-
-.discount-container {
-    background-image: url("./Project-Files/Discount-bg.jpg");
-    height: 300px;
+.ig-1{
+    background-image: url(./images/ig-pic1.png);
+    height: 160px;
 }
-
-.ig-1 {
-    background-image: url(./Project-Files/Insta-1.png);
+.ig-2{
+    background-image: url(./images/ig-pic2.png);
+    height: 160px;
 }
-
-.ig-2 {
-    background-image: url(./Project-Files/Insta-2.png);
+.ig-3{
+    background-image: url(./images/ig-pic3.png);
+    height: 160px;
 }
-
-.ig-3 {
-    background-image: url(./Project-Files/Insta-3.png);
+.ig-4{
+    background-image: url(./images/ig-pic4.png);
+    height: 160px;
 }
-
-.ig-4 {
-    background-image: url(./Project-Files/Insta-4.png);
+.ig-5{
+    background-image: url(./images/ig-pic5.png);
+    height: 160px;
 }
-
-.ig-5 {
-    background-image: url(./Project-Files/Insta-5.png);
+.ig-6{
+    background-image: url(./images/ig-pic6.png);
+    height: 160px;
 }
-
-.ig-6 {
-    background-image: url(./Project-Files/Insta-6.png);
-}
-
-.contact-main-header {
-    background-image: url(./Project-Files/Contact-bg-1.png);
-    height: 100px;
-}
-
-.contact-map {
-    background-image: url(./Project-Files/Contact-Map.png);
-    height: 300px;
-}
-
-.blog-main-header {
-    background-image: url("./Project-Files/blog-bg.png");
-    height: 100px;
-}
-
-.blog-gallery {
-    height: 85px;
+.blog-gallery{
+    height: -120px;
 }
 
 @media screen and (max-width: 768px){
-    
-    .w-15 {
-        width: 30%;
-    }
-
-    .contact-main-header,
-    .contact-map,
-    .blog-main-header {
-        display: none;
-    }
-     
+.w-15{
+     width: 30%;
+}
+.contact-main-header,.blog-main-header,.single-blog-main-header{
+   display: none;
+}
+.contact-map{
+    display: none;
+}
+}
+.h-100{
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.type-1{
+    background-image: url(./images/Rectangle\ 54.png);
+}
+.type-2{
+    background-image: url(./images/Rectangle\ 54\ \(1\).png);
+}
+.type-3{
+    background-image: url(./images/Rectangle\ 54\ \(2\).png);
+}
+.discont-container{
+    background-image: url(./images/i-did-it.jpeg);
+    height: 300px;
+}
+.single-blog-discount {
+    background-image: url(./images/single-4.png);
+    height: 200px;
+}
+.texts3{
+    margin-left: 110px;
+}
+.contact-main-header{
+    background-image: url(./images/Breadcrumbs.png);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.contact-map{
+    background-image: url(./images/Map\ Image.png);
+    height: 300px;
+}
+.blog-main-header{
+    background-image: url(./images/Breadcrumbs-1.png);
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.single-blog-main-header{
+    background-image: url(./images/Breadcrumbs-2.png);
+    height: 100px;
+    background-repeat: no-repeat;
 }
